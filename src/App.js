@@ -70,6 +70,7 @@ export default function App() {
           selectedFriend={selectedFriend}
           onSelection={handleSelection}
         />
+        <Footer />
 
         {showAddFriend && <FormAddFriend onAddFriend={handleAddFriend} />}
 
@@ -225,4 +226,11 @@ function FormSplitBill({ selectedFriend, onSplitBill }) {
       <Button>Split bill</Button>
     </form>
   );
+}
+
+
+function Footer()
+{
+  return
+  <footer>DESIGNED BY NADEEM</footer>
 }
