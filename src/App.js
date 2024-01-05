@@ -6,13 +6,13 @@ const initialFriends = [
     id: 118836,
     name: "Tufail Dar",
     image: "https://i.pravatar.cc/48?u=118836",
-    balance: -5,
+    balance: -25,
   },
   {
     id: 933372,
     name: "Nadeem Fayaz",
     image: "https://i.pravatar.cc/48?u=933372",
-    balance: 50,
+    balance: 250,
   },
   {
     id: 499476,
